@@ -11,7 +11,11 @@ A project to create a visual tracker using CNNs and RNNs. CNN will perform the f
 
 ### Installing
 
-You can pip install all the dependencies for the project.
+For keras you can create a Conda environment as follows.
+
+conda create -n tf_gpu tensorflow-gpu keras-gpu
+
+You can pip install all other dependencies for the project.
 
 ## Running the model
 
